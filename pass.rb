@@ -5,7 +5,7 @@ else
     return false
     end
 end 
-1.times do 
+3.times do 
 grade = Random.rand(101)
 if pass?(grade) == false
     puts"Failed the test"
