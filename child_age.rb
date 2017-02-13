@@ -1,5 +1,5 @@
-print"Enter your childs age: "
+print"Enter childs age: "
 age = gets.chomp
-age = age.length
-age.times do|print"Are we there yet?"|
+age = age.to_i
+age.times{puts "Are we there yet? "}
 

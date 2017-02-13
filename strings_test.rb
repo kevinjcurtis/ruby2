@@ -10,3 +10,7 @@ first = names[0]
 last = names[1]
 puts first
 puts last
+
+initial = first[0]+ last[0]
+puts "initials: "<<initial
+puts initial * 3
